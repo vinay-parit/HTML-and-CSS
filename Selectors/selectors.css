@@ -1,30 +1,31 @@
 /* !-------- Universal Selector --------! */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* !-------- Type Selector ---------!*/
-h1{
-    background-color: rgb(229, 253, 159);
+h1 {
+  background-color: rgb(229, 253, 159);
 }
 
 /* !---------- Class Selector ---------! */
-.class{
-    font-size: 50px;
-    /* font-weight: 900; */
+.class {
+  font-size: 30px;
+  /* font-weight: 900; */
 }
 
 /* !---------- ID Selector ----------! */
-#id{
-    font-weight: 900;
-    background-color: aquamarine;
+#id {
+  font-weight: 900;
+  background-color: aquamarine;
 }
 
 /* !---------- Group Selector ----------! */
-h1, p, h2{
-    color: crimson;
-    /* border: 1px solid black; */
-    
+h1,
+p,
+h2 {
+  color: crimson;
+  /* border: 1px solid black; */
 }
