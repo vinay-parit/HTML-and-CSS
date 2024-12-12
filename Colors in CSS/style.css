@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+h1{
+    background: linear-gradient(orange, white, green);
+    color: blue;
+    text-align: center;
+    font-size: 80
+    px;
+}
+p{
+    background: linear-gradient(orange  ,white,green);
+    height: 30vh;
+    text-align: justify;
+    font-size: 30px;
+
+    
+}
+img{
+    width: 100%;
+}
