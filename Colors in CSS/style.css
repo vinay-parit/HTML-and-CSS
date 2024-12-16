@@ -12,7 +12,7 @@ h1{
     px;
 }
 p{
-    background: linear-gradient(orange  ,white,green);
+    background : linear-gradient(orange, white, green);
     height: 30vh;
     text-align: justify;
     font-size: 30px;

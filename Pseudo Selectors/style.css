@@ -1,0 +1,36 @@
+h1::before{
+    content: "";
+    display: block;
+    background:linear-gradient(orange,white,green);
+    height: 300px;
+    width: 300px;
+    border-bottom: 5px dotted red;
+}
+h1::after{
+    content: "";
+    display: block;
+     border-bottom: 2px dashed;
+}
+p:hover{
+    background-color: blue;
+    text-align: center;
+    color: whitesmoke;
+}
+p:active{
+    color: red;
+}
+a:hover{
+    background-color: crimson;
+}
+a:active{
+    background-color: yellowgreen;
+}
+button:hover{
+    padding: 10px 20px;
+    border-radius: 50%;
+    background:linear-gradient(orange,white,green);
+    color: blue;
+}
+button:active{
+    color: crimson;
+}
