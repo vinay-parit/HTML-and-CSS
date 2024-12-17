@@ -1,0 +1,110 @@
+/* *{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boxes {
+  display: flex;
+  gap: 20px;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.box1,
+.box2,
+.box3 {
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+}
+.box1{
+    background-color: orange;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.box3{
+    background-color: green;
+}
+.circle{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    border-radius: 50%;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff2de;
+}
+.logo {
+  display: flex;
+}
+.main-logo {
+  height: 60px;
+  width: 60px;
+}
+
+.list {
+  display: flex;
+  gap: 20px;
+  height: 100%;
+  align-items: center;
+  list-style: none;
+}
+
+.login {
+  /* background-color: aqua; */
+  height: 8vh;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+
+button {
+  padding: 8px 20px;
+  border-radius: 15px;
+}
+
+main {
+  height: 85vh;
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("./mountain.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+main > h1 {
+  font-size: 5rem;
+}
+
+main > p {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: #fff2de;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
